@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    color: white
+}
+.sidebarNavigation{
+    background-color: rgb(14, 14, 14);
+    border-radius: 8px;
+    padding: 4px 4px
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    margin-bottom: 60px;
+}
+.sidebarNavigation .logoSpotify{
+    display: flex;
+    border-radius: 8px;
+}
+.logoSpotify img{
+    width: 230px;
+}
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+.sidebar ul li{
+    padding: 8px 0;
+}
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+}
+.separatingSpan{
+    display: flex;
+    justify-content: space-between;
+}
+.playlists{
+    background-color: rgb(28, 28, 28);
+    border-radius: 5px;
+    margin: 0 8px;
+    padding: 16px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+}
+.playlists h4{
+    color: white;
+    margin-bottom: 12px;
+}
+.playlists p{
+    color: rgb(204, 204, 204);
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+.playlists a{
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+#cookies{
+    color: #929292;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    margin-left: 7px;
+    padding: 30px 0;
+}
+#portuguesDoBrasil{
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 16px;
+    margin-right: 55px;
+    margin-top: 5px;
+}
+#portuguesDoBrasil a{
+    color: white;
+    margin-left: 5px;
+    font-size: 15px;
+}
